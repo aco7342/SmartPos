@@ -1,2 +1,8 @@
-# SmartPos
-Projeto de Teste em Kotlin usando estados para controle e sabores usando Flavor
+Projeto SmartPos em Kotlin usando Flavor
+
+* Este Projeto segue o seguinte Fluxo:
+  * Na abertura é apresentado a tela principal com Logo/Marca, os botões Crédito e Débito e Campo de valor para ColetaFluxo de execução esperado, preenchimento do valor *<mark>(estado coleta)</mark>, na sequencia informar a operação de crédito ou débito atraves dos respectivos botões e na sequencia o botão realizar pagamento será apresentado, após seu pressionamento<mark> (estado processando)</mark>*, será um intervalo de 1-3 segundos representando o tempo de processamento do HOST, tambem será sorteado um valor de 0-9 representando sucesso ou fracasso, acima de 7 é considerado fracasso na sequencia é apresentado o resultado da operação usando definição de cores por arquivo xml <mark>*(estado processado)*</mark> após o pressionamento do botão a tela de apresentação sera encerrada e retorna ao etado inicial <mark>(estado coleta)</mark>
+  * Estão implementadas 3 versões da aplicação<u> <mark>(Flavor</mark>)</u>, variando o nome da mesma, o icone e cores mudando entre os sabores "<u>base/white Label</u>", "<u>Banco 1</u>" e "<u>Banco 2</u>"
+  * Não houve tempo para testes de viewmodel/usecase embora tenha feito optei por não entregar, onde trabalhei com o Android Studio não utiizava-mos portanto não consegui executa-los e ajusta-los adequadamente
+  * Optei por utilizar a abordagem <mark>MVVM</mark> por ser mais conhecida e utilizada por mim nos projetos que trabalhei.
+  * As técnicas de uso de numero sorteado é util para poder validar o comportamento e simulação da mesma vista em materia da pós-graduação em informática e automação industrial no PECE/POLI-USP
