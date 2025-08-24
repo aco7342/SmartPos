@@ -1,4 +1,4 @@
-#####Projeto SmartPos em Kotlin com estados e usando Flavor
+#### Projeto SmartPos em Kotlin com estados e usando Flavor
 
 * Este Projeto segue o seguinte Fluxo:
   * Na abertura é apresentado a tela principal com Logo/Marca, os botões Crédito e Débito e Campo de valor para ColetaFluxo de execução esperado, preenchimento do valor *<mark>(estado coleta)</mark>, na sequencia informar a operação de crédito ou débito atraves dos respectivos botões e na sequencia o botão realizar pagamento será apresentado, após seu pressionamento<mark> (estado processando)</mark>*, será um intervalo de 1-3 segundos representando o tempo de processamento do HOST, tambem será sorteado um valor de 0-9 representando sucesso ou fracasso, acima de 7 é considerado fracasso na sequencia é apresentado o resultado da operação usando definição de cores por arquivo xml <mark>*(estado processado)*</mark> após o pressionamento do botão a tela de apresentação sera encerrada e retorna ao etado inicial <mark>(estado coleta)</mark>
