@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartPos</string>
+    <string name="brand_name">Banco 1</string>
+    <string name="brand_slogan">Pagamentos simples e rápidos</string>
+    <string name="credit">Crédito</string>
+    <string name="debit">Débito</string>
+</resources>

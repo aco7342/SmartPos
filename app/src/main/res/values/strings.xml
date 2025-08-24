@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SmartPos</string>
+
+    <!-- Botões -->
+    <string name="btn_credito">Crédito</string>
+    <string name="btn_debito">Débito</string>
+    <string name="btn_realizar">Realizar Transação</string>
+
+    <!-- Estados -->
+    <string name="estado_coleta">Estado: Coleta de valor</string>
+    <string name="estado_processo">Estado: Processando...</string>
+    <string name="estado_processado_sucesso">Estado: Processado com sucesso</string>
+    <string name="estado_processado_erro">Estado: Processado com erro</string>
+	
+	<string name="credito">Crédito</string>
+    <string name="debito">Débito</string>
+    <string name="realizar_transacao">Realizar Transação</string>
+	
+	<string name="amount_label">Valor</string>
+    <string name="amount_hint">R$ 0,00</string>
+    <string name="credit">Crédito</string>
+    <string name="debit">Débito</string>
+	<string name="realize">Realizar Transação</string>
+    <string name="confirm_message">Operação: %1$s\nValor: %2$s</string>
+	
+	 <!--string name="brand_name">White Label</string>
+     <string name="brand_slogan">Pagamentos com Cartão</string-->
+</resources>

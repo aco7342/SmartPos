@@ -1,0 +1,5 @@
+<resources>
+    <color name="brandPrimary">#0D47A1</color>
+    <color name="brandSecondary">#1565C0</color>
+    <color name="onBrand">#FFFFFF</color>
+</resources>

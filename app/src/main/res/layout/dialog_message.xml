@@ -1,0 +1,35 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:backgroundTint="@color/dialogBrandPrimary"
+    android:elevation="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/dialogCardTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message Title"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="@android:color/white" />
+
+        <!-- Body message -->
+        <TextView
+            android:id="@+id/dialogCardMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="This is a styled message inside a MaterialCardView."
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
